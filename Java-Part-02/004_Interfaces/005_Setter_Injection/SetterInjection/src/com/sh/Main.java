@@ -11,6 +11,7 @@ public class Main {
 
         /*
             * setter injection
+            * while using setter injection we can remove constructor
          */
         var report1 = new TaxReport();
         report1.setCalculator(new TaxCalculator2027());
